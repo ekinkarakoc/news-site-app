@@ -37,17 +37,18 @@ ul {
   font-family: "Inter", sans-serif;
   font-size: 1.5rem;
   border-radius: 4px;
-  padding: 5px;
+  padding: 5px 10px;
 }
 
-#logo:hover {
+#logo:hover .next-and {
   background-color: #bcbcb7;
-
-  text-decoration: none;
-}
-
-.next-and:hover {
   color: #181817 !important;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 1.5rem;
+}
+.next-and {
+  padding: 5px 10px;
 }
 
 #main-header #logo a,
