@@ -38,6 +38,7 @@ ul {
   font-size: 1.5rem;
   border-radius: 4px;
   padding: 5px 10px;
+  margin-left: -20px;
 }
 
 #logo:hover .next-and {
@@ -155,8 +156,19 @@ ul {
   align-items: center;
 }
 
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.header-content {
+  margin: 10px;
+}
+
 .news-article img {
   width: 25rem;
+  margin: 2rem;
   margin-bottom: 1rem;
   border-radius: 4px;
 }
