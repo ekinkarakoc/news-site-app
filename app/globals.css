@@ -188,6 +188,21 @@ ul {
   margin: 0;
 }
 
+.header-wrapper {
+  margin-bottom: 10vh;
+  margin-top: 10vh;
+}
+
+#archive-header a {
+  text-decoration: none;
+}
+
+.archive-heading {
+  text-decoration: none;
+  color: #b0b0a6;
+  font-size: 25px;
+}
+
 #archive-header ul {
   display: flex;
   gap: 1rem;

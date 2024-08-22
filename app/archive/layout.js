@@ -1,9 +1,14 @@
+import Link from "next/link";
 import React from "react";
 
 const ArchiveLayout = ({ archive, latest }) => {
   return (
     <div>
-      <h1>News deneme Archive</h1>
+      <div className="header-wrapper">
+        <Link href={"/archive"} className="archive-heading">
+          News Archive
+        </Link>
+      </div>
       <section id="archive-filter">{archive}</section>
       <section id="archive-latest">{latest}</section>
     </div>
